@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.slide_main ul{
+    min-height: 70vh !important;
+}
+
+.slide_main li{
+    width: 100%;
+}
+
+.slide_main li img{
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+}
+
+@media(max-width: 991px){
+    .slide_main li img, ul{
+        height: 100vh;
+    }
+}
